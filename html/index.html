@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS-Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="bs-menu" class="menu-container" style="display: none;">
+        <div class="menu-header">
+            <h2 id="menu-title"></h2>
+        </div>
+        <div id="menu-items"></div>
+    </div>
+
+    <template id="menu-item-template">
+        <div class="menu-item">
+            <i class="item-icon"></i>
+            <div class="item-content">
+                <div class="item-header"></div>
+                <div class="item-description"></div>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
